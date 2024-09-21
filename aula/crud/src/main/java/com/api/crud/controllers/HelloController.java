@@ -12,11 +12,9 @@ public class HelloController {
 
     @Autowired
     private HelloService helloService;
-    
-    @GetMapping("/")
-        public String hello(@RequestParam(value = "name",
-            defaultValue = "World") String name) {
-                return helloService.getHello(name);
-}
-}
 
+    @GetMapping("/")
+    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+        return helloService.getHello(name);
+    }
+}
