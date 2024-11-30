@@ -1,4 +1,0 @@
-fastapi==0.95.2
-uvicorn==0.22.0
-pydantic==2.10.2
-pyjwt==2.8.0
